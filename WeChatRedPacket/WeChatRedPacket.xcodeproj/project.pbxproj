@@ -88,7 +88,7 @@
 		F6EBCCCA22FBF7DB00E09F7C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F6EBCCCC22FBF7DB00E09F7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6EBCCCE22FBF7DB00E09F7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F6EBCCD222FBF7DB00E09F7C /* WeChatRedPacketDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = WeChatRedPacketDylib.xm; path = Logos/WeChatRedPacketDylib.xm; sourceTree = "<group>"; };
+		F6EBCCD222FBF7DB00E09F7C /* WeChatRedPacketDylib.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; name = WeChatRedPacketDylib.xm; path = Logos/WeChatRedPacketDylib.xm; sourceTree = "<group>"; };
 		F6EBCCD322FBF7DB00E09F7C /* WeChatRedPacketDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = WeChatRedPacketDylib.mm; path = Logos/WeChatRedPacketDylib.mm; sourceTree = "<group>"; };
 		F6EBCCD622FBF7DB00E09F7C /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
 		F6EBCCD822FBF7DB00E09F7C /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
@@ -701,7 +701,7 @@
 					"$(MonkeyDevTheosPath)/vendor/lib/**",
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevTheosPath = /Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DTHEOS_INSTANCE_NAME=\"\\\"WeChatRedPacketDylib\\\"\"",
@@ -762,7 +762,7 @@
 					"$(MonkeyDevTheosPath)/vendor/lib/**",
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /opt/theos;
+				MonkeyDevTheosPath = /Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DTHEOS_INSTANCE_NAME=\"\\\"WeChatRedPacketDylib\\\"\"",
@@ -796,7 +796,7 @@
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.xin.WeChatRedPacket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.xin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -817,7 +817,7 @@
 				MONKEYDEV_TARGET_APP = Optional;
 				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
 				PODS_ROOT = "${SRCROOT}/Pods";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.xin.WeChatRedPacket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.xin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
