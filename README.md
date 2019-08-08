@@ -11,21 +11,21 @@
 将脱壳的微信的ipa包命名成全英文``` 例如:WeChat.ipa```,并且复制到/WeChatRedPacket/WeChatRedPacket/TargetApp文件夹中
 
 ##### 3、配置好基本配置
-```
-1、【修改Bundle Identifier】微信自身的Bundle Identifier为：com.tencent.xin,可以取一个不一样的Bundle Identifier既可与原来的微信共存，即所说的微信多开。
-
+>1、【修改Bundle Identifier】微信自身的Bundle Identifier为：com.tencent.xin,可以取一个不一样的Bundle Identifier既可与原来的微信共存，即所说的微信多开。
+>
 2、【修改Display Name】可以给应用重新命名：例如：微信1
+>
+3、【配置好证书】
 
-3、【配置好运行证书】
-
-```
 
 
 ##### 4、运行
-```
-1、配置好上面步骤，就可以直接用xcode直接运行项目了，必须使用真机哦，不可以使用模拟器
+>1、配置好上面步骤，就可以直接用xcode直接运行项目了，必须使用真机哦，不可以使用模拟器
 2、若运行报 Failed to locate Logos Processor. Is Theos installed?的错误，具体错误请看下图。若报错，请看
-```
+>
+![](https://raw.githubusercontent.com/chenfanfang/WeChatRedPacket/master/snapshot/Theos_Error.png)
+
+
 
 ##### 5、解决Theos问题的报错
 
@@ -39,5 +39,7 @@
 >>/Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos，则直接改成
 >> /Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos即可，
 >> 具体请看下图所示
+>> ![](https://raw.githubusercontent.com/chenfanfang/WeChatRedPacket/master/snapshot/MonkeyDevTheosPath.png)
 >> 
 >> 3、重新使用xcode运行项目即可启动
+
