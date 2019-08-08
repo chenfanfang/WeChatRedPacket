@@ -5,12 +5,11 @@
 ## Build generated
 build/
 DerivedData/
-LatestBuild/
-WeChat
+WeChatRedPacket/LatestBuild/
+WeChat.app/
 
 ## Various settings
 *.pbxuser
-!default.pbxuser
 *.mode1v3
 !default.mode1v3
 *.mode2v3
