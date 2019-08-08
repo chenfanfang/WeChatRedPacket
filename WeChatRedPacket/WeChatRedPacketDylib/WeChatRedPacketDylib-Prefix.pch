@@ -6,5 +6,5 @@
     #import <Foundation/Foundation.h>
     // /Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos
     // /opt/theos
-    #import "/Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos/Prefix.pch"  //path/to/theos/Prefix.pch
+    #import "/opt/theos/Prefix.pch"  //path/to/theos/Prefix.pch
 #endif

@@ -1,5 +1,9 @@
+# 效果图
 
-## 注:
+![](https://raw.githubusercontent.com/chenfanfang/WeChatRedPacket/master/snapshot/redPacket.png)
+
+
+# 注:
 本项目主要目的是用来学习逆向知识，可以很好地使用xcode来进行编码，有了xcode的代码提示帮助，大大提高了逆向编码效率，并且由于MonkeyDev的自动化，省去了动态库注入和签名的流程。
 
 由于微信的检测机制，是存在账号被封的危险。若实在想用抢红包功能，建议对使用越狱手机，并且使用Theos创建tweak项目,并且将本文项目的objc-class文件夹中的所有类、Logos文件夹中的WeChatRedPacketDylib.xm 拷贝到tweak项目中进行打包和安装到越狱机中即可。
@@ -27,7 +31,7 @@
 ##### 4、运行
 >1、配置好上面步骤，就可以直接用xcode直接运行项目了，必须使用真机哦，不可以使用模拟器【打包步骤请查看MonkeyDev的打包步骤】
 >
->2、若运行报 Failed to locate Logos Processor. Is Theos installed?的错误，具体错误请看下图。若报错，请看
+>2、若运行报 Failed to locate Logos Processor. Is Theos installed?的错误，具体错误请看下图。若报错，请看```步骤5```
 >
 ![](https://raw.githubusercontent.com/chenfanfang/WeChatRedPacket/master/snapshot/Theos_Error.png)
 

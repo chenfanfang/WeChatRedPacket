@@ -701,7 +701,7 @@
 					"$(MonkeyDevTheosPath)/vendor/lib/**",
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos;
+				MonkeyDevTheosPath = /opt/theos;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DTHEOS_INSTANCE_NAME=\"\\\"WeChatRedPacketDylib\\\"\"",
@@ -762,7 +762,7 @@
 					"$(MonkeyDevTheosPath)/vendor/lib/**",
 				);
 				MonkeyDevPath = /opt/MonkeyDev;
-				MonkeyDevTheosPath = /Users/chenfanfang/dev/ios_jailbreak_environment/tools/theos;
+				MonkeyDevTheosPath = /opt/theos;
 				OTHER_CFLAGS = (
 					"$(inherited)",
 					"-DTHEOS_INSTANCE_NAME=\"\\\"WeChatRedPacketDylib\\\"\"",
