@@ -37,6 +37,21 @@
 		F6EBCD0822FBF7DB00E09F7C /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD0722FBF7DB00E09F7C /* fishhook.h */; };
 		F6EBCD0A22FBF7DB00E09F7C /* WeChatRedPacketDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD0922FBF7DB00E09F7C /* WeChatRedPacketDylib.h */; };
 		F6EBCD0C22FBF7DB00E09F7C /* WeChatRedPacketDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD0B22FBF7DB00E09F7C /* WeChatRedPacketDylib.m */; };
+		F6EBCD2522FBFA1600E09F7C /* WBRedEnvelopTaskManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD1622FBFA1600E09F7C /* WBRedEnvelopTaskManager.h */; };
+		F6EBCD2622FBFA1600E09F7C /* WeChatRedEnvelopParam.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD1722FBFA1600E09F7C /* WeChatRedEnvelopParam.m */; };
+		F6EBCD2722FBFA1600E09F7C /* WeChatRedEnvelopParam.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD1822FBFA1600E09F7C /* WeChatRedEnvelopParam.h */; };
+		F6EBCD2822FBFA1600E09F7C /* WBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD1922FBFA1600E09F7C /* WBSettingViewController.m */; };
+		F6EBCD2922FBFA1600E09F7C /* WBRedEnvelopParamQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD1A22FBFA1600E09F7C /* WBRedEnvelopParamQueue.m */; };
+		F6EBCD2A22FBFA1600E09F7C /* WBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD1B22FBFA1600E09F7C /* WBBaseViewController.m */; };
+		F6EBCD2B22FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD1C22FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.h */; };
+		F6EBCD2C22FBFA1600E09F7C /* WBRedEnvelopConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD1D22FBFA1600E09F7C /* WBRedEnvelopConfig.m */; };
+		F6EBCD2D22FBFA1600E09F7C /* WBRedEnvelopTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD1E22FBFA1600E09F7C /* WBRedEnvelopTaskManager.m */; };
+		F6EBCD2E22FBFA1600E09F7C /* WBSettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD1F22FBFA1600E09F7C /* WBSettingViewController.h */; };
+		F6EBCD2F22FBFA1600E09F7C /* WBRedEnvelopParamQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD2022FBFA1600E09F7C /* WBRedEnvelopParamQueue.h */; };
+		F6EBCD3022FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EBCD2122FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.m */; };
+		F6EBCD3122FBFA1600E09F7C /* WBBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD2222FBFA1600E09F7C /* WBBaseViewController.h */; };
+		F6EBCD3222FBFA1600E09F7C /* WBRedEnvelopConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD2322FBFA1600E09F7C /* WBRedEnvelopConfig.h */; };
+		F6EBCD3322FBFA1600E09F7C /* WeChatRedEnvelop.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EBCD2422FBFA1600E09F7C /* WeChatRedEnvelop.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +116,21 @@
 		F6EBCD0722FBF7DB00E09F7C /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
 		F6EBCD0922FBF7DB00E09F7C /* WeChatRedPacketDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatRedPacketDylib.h; sourceTree = "<group>"; };
 		F6EBCD0B22FBF7DB00E09F7C /* WeChatRedPacketDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatRedPacketDylib.m; sourceTree = "<group>"; };
+		F6EBCD1622FBFA1600E09F7C /* WBRedEnvelopTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopTaskManager.h; sourceTree = "<group>"; };
+		F6EBCD1722FBFA1600E09F7C /* WeChatRedEnvelopParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatRedEnvelopParam.m; sourceTree = "<group>"; };
+		F6EBCD1822FBFA1600E09F7C /* WeChatRedEnvelopParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelopParam.h; sourceTree = "<group>"; };
+		F6EBCD1922FBFA1600E09F7C /* WBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBSettingViewController.m; sourceTree = "<group>"; };
+		F6EBCD1A22FBFA1600E09F7C /* WBRedEnvelopParamQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopParamQueue.m; sourceTree = "<group>"; };
+		F6EBCD1B22FBFA1600E09F7C /* WBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBBaseViewController.m; sourceTree = "<group>"; };
+		F6EBCD1C22FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBReceiveRedEnvelopOperation.h; sourceTree = "<group>"; };
+		F6EBCD1D22FBFA1600E09F7C /* WBRedEnvelopConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopConfig.m; sourceTree = "<group>"; };
+		F6EBCD1E22FBFA1600E09F7C /* WBRedEnvelopTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBRedEnvelopTaskManager.m; sourceTree = "<group>"; };
+		F6EBCD1F22FBFA1600E09F7C /* WBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBSettingViewController.h; sourceTree = "<group>"; };
+		F6EBCD2022FBFA1600E09F7C /* WBRedEnvelopParamQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopParamQueue.h; sourceTree = "<group>"; };
+		F6EBCD2122FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBReceiveRedEnvelopOperation.m; sourceTree = "<group>"; };
+		F6EBCD2222FBFA1600E09F7C /* WBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseViewController.h; sourceTree = "<group>"; };
+		F6EBCD2322FBFA1600E09F7C /* WBRedEnvelopConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBRedEnvelopConfig.h; sourceTree = "<group>"; };
+		F6EBCD2422FBFA1600E09F7C /* WeChatRedEnvelop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatRedEnvelop.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +222,7 @@
 		F6EBCCD022FBF7DB00E09F7C /* WeChatRedPacketDylib */ = {
 			isa = PBXGroup;
 			children = (
+				F6EBCD1522FBFA0100E09F7C /* objc-class */,
 				F6EBCD0922FBF7DB00E09F7C /* WeChatRedPacketDylib.h */,
 				F6EBCD0B22FBF7DB00E09F7C /* WeChatRedPacketDylib.m */,
 				F6EBCCD122FBF7DB00E09F7C /* Logos */,
@@ -280,6 +311,28 @@
 			name = fishhook;
 			sourceTree = "<group>";
 		};
+		F6EBCD1522FBFA0100E09F7C /* objc-class */ = {
+			isa = PBXGroup;
+			children = (
+				F6EBCD2222FBFA1600E09F7C /* WBBaseViewController.h */,
+				F6EBCD1B22FBFA1600E09F7C /* WBBaseViewController.m */,
+				F6EBCD1C22FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.h */,
+				F6EBCD2122FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.m */,
+				F6EBCD2322FBFA1600E09F7C /* WBRedEnvelopConfig.h */,
+				F6EBCD1D22FBFA1600E09F7C /* WBRedEnvelopConfig.m */,
+				F6EBCD2022FBFA1600E09F7C /* WBRedEnvelopParamQueue.h */,
+				F6EBCD1A22FBFA1600E09F7C /* WBRedEnvelopParamQueue.m */,
+				F6EBCD1622FBFA1600E09F7C /* WBRedEnvelopTaskManager.h */,
+				F6EBCD1E22FBFA1600E09F7C /* WBRedEnvelopTaskManager.m */,
+				F6EBCD1F22FBFA1600E09F7C /* WBSettingViewController.h */,
+				F6EBCD1922FBFA1600E09F7C /* WBSettingViewController.m */,
+				F6EBCD2422FBFA1600E09F7C /* WeChatRedEnvelop.h */,
+				F6EBCD1822FBFA1600E09F7C /* WeChatRedEnvelopParam.h */,
+				F6EBCD1722FBFA1600E09F7C /* WeChatRedEnvelopParam.m */,
+			);
+			name = "objc-class";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -289,12 +342,20 @@
 			files = (
 				F6EBCCDB22FBF7DB00E09F7C /* MDCycriptManager.h in Headers */,
 				F6EBCCDF22FBF7DB00E09F7C /* MDMethodTrace.h in Headers */,
+				F6EBCD2722FBFA1600E09F7C /* WeChatRedEnvelopParam.h in Headers */,
 				F6EBCD0822FBF7DB00E09F7C /* fishhook.h in Headers */,
+				F6EBCD2B22FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.h in Headers */,
+				F6EBCD3122FBFA1600E09F7C /* WBBaseViewController.h in Headers */,
+				F6EBCD2E22FBFA1600E09F7C /* WBSettingViewController.h in Headers */,
 				F6EBCCFC22FBF7DB00E09F7C /* LLDBTools.h in Headers */,
+				F6EBCD3322FBFA1600E09F7C /* WeChatRedEnvelop.h in Headers */,
+				F6EBCD3222FBFA1600E09F7C /* WBRedEnvelopConfig.h in Headers */,
 				F6EBCCD722FBF7DB00E09F7C /* MDConfigManager.h in Headers */,
 				F6EBCCF622FBF7DB00E09F7C /* OCSelectorTrampolines.h in Headers */,
 				F6EBCCF222FBF7DB00E09F7C /* OCMethodTrace.h in Headers */,
 				F6EBCD0A22FBF7DB00E09F7C /* WeChatRedPacketDylib.h in Headers */,
+				F6EBCD2F22FBFA1600E09F7C /* WBRedEnvelopParamQueue.h in Headers */,
+				F6EBCD2522FBFA1600E09F7C /* WBRedEnvelopTaskManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,17 +519,24 @@
 				F6EBCCE422FBF7DB00E09F7C /* a1a2-selectortramps-arm.s in Sources */,
 				F6EBCCEA22FBF7DB00E09F7C /* a1a2-selectortramps-x86_64.s in Sources */,
 				F6EBCCF422FBF7DB00E09F7C /* OCMethodTrace.m in Sources */,
+				F6EBCD2C22FBFA1600E09F7C /* WBRedEnvelopConfig.m in Sources */,
 				F6EBCCD922FBF7DB00E09F7C /* MDConfigManager.m in Sources */,
 				F6EBCD0622FBF7DB00E09F7C /* fishhook.c in Sources */,
 				F6EBCD0322FBF7DB00E09F7C /* AntiAntiDebug.m in Sources */,
+				F6EBCD3022FBFA1600E09F7C /* WBReceiveRedEnvelopOperation.m in Sources */,
 				F6EBCCF822FBF7DB00E09F7C /* OCSelectorTrampolines.mm in Sources */,
+				F6EBCD2922FBFA1600E09F7C /* WBRedEnvelopParamQueue.m in Sources */,
 				F6EBCCE822FBF7DB00E09F7C /* a1a2-selectortramps-i386.s in Sources */,
 				F6EBCCEE22FBF7DB00E09F7C /* a2a3-selectortramps-i386.s in Sources */,
+				F6EBCD2D22FBFA1600E09F7C /* WBRedEnvelopTaskManager.m in Sources */,
 				F6EBCCEC22FBF7DB00E09F7C /* a2a3-selectortramps-arm.s in Sources */,
+				F6EBCD2622FBFA1600E09F7C /* WeChatRedEnvelopParam.m in Sources */,
 				F6EBCCD422FBF7DB00E09F7C /* WeChatRedPacketDylib.mm in Sources */,
 				F6EBCCFE22FBF7DB00E09F7C /* LLDBTools.mm in Sources */,
 				F6EBCCF022FBF7DB00E09F7C /* a2a3-selectortramps-x86_64.s in Sources */,
+				F6EBCD2822FBFA1600E09F7C /* WBSettingViewController.m in Sources */,
 				F6EBCCE122FBF7DB00E09F7C /* MDMethodTrace.m in Sources */,
+				F6EBCD2A22FBFA1600E09F7C /* WBBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
