@@ -178,11 +178,13 @@
 //=================
 - (WCTableViewCellManager *)createBlackListCell {
     
+    NSString *title = @"哪些群不自动抢红包";
+    
     if ([WBRedEnvelopConfig sharedConfig].blackList.count == 0) {
-        return [objc_getClass("WCTableViewCellManager") normalCellForSel:@selector(showBlackList) target:self title:@"群聊过滤" rightValue:@"已关闭" WithDisclosureIndicator:1];
+        return [objc_getClass("WCTableViewCellManager") normalCellForSel:@selector(showBlackList) target:self title:title rightValue:@"已关闭" WithDisclosureIndicator:1];
     } else {
         NSString *blackListCountStr = [NSString stringWithFormat:@"已选 %lu 个群", (unsigned long)[WBRedEnvelopConfig sharedConfig].blackList.count];
-        return [objc_getClass("WCTableViewCellManager") normalCellForSel:@selector(showBlackList) target:self title:@"群聊过滤" rightValue:blackListCountStr WithDisclosureIndicator:1];
+        return [objc_getClass("WCTableViewCellManager") normalCellForSel:@selector(showBlackList) target:self title:title rightValue:blackListCountStr WithDisclosureIndicator:1];
     }
 }
 
