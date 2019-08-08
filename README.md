@@ -1,7 +1,7 @@
 # WeChatRedPacket
 
 
-#项目运行步骤
+# 项目运行步骤
 
 #####1、搭建运行环境
 使用前，需要先搭建MonkeyDev,具体搭建方法请看[官方教程](https://github.com/AloneMonkey/MonkeyDev/wiki/%E5%AE%89%E8%A3%85)
